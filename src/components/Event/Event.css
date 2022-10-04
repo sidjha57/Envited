@@ -1,0 +1,135 @@
+.EventPicture{
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    left: calc(50% - 375px/2);
+    top: 0px;
+    
+    border-radius: 0px;
+}
+
+.EventName{
+    position: absolute;
+    width: 327px;
+    height: 37px;
+    left: calc(50% - 327px/2 - 4px);
+    top: 386px;
+    
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    
+    color: #240D57;
+}
+
+.HostedBy{
+    position: absolute;
+    width: 341px;
+    height: 15px;
+    left: calc(50% - 341px/2 + 3px);
+    top: 427px;
+    
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #828282;
+
+}
+
+.calendar{
+    position: absolute;
+    left: 8.33%;
+    right: 10.42%;
+    top: 10.75%;
+    bottom: 6.25%;
+}
+
+.StartTime{
+    width: 138px;
+    height: 18px;
+    
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    
+    color: #240D57;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.EndTime{
+    width: 197px;
+    height: 16px;
+    
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    
+    
+    color: #4F4F4F;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.Location{
+width: 92px;
+height: 18px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+
+color: #240D57;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.LocationDetails{
+    width: 152px;
+height: 16px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #4F4F4F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
